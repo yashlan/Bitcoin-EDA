@@ -42,7 +42,7 @@ for start_year, end_year in intervals:
     
     # Plot harga Bitcoin pada 31 Desember setiap tahun untuk interval ini
     plt.figure(figsize=(5, 5))
-    plt.bar(data_interval["Year"], data_interval["Price"], color="orange", label="Harga Bitcoin")
+    plt.bar(data_interval["Year"], data_interval["Price"], color="orange", label="Harga Bitcoin per 31 Desember")
     
     # Tambahkan label harga di setiap batang
     for year, price in zip(data_interval["Year"], data_interval["Price"]):
